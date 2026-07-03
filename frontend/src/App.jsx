@@ -84,12 +84,6 @@ function App() {
       <div className="glow-orb glow-orb-2"></div>
 
       <main className="dashboard">
-        <header className="header">
-          <h1>CineTracker</h1>
-          <p>Your ultimate glassmorphic companion to curate and track your watch lists.</p>
-        </header>
-
-        {/* Form Input */}
         <form onSubmit={handleAddMovie} className="add-movie-form">
           <div className="input-wrapper">
             <input
